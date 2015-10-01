@@ -1,0 +1,30 @@
+{
+    "Ksenia": {
+        "1": ["crawlerShot"],
+        "2": ["crawlerShotCooldown1"],
+        "3": ["crawlerShotCreep1"],
+        "4": ["crawlerShotRange1"],
+        "5": ["crawlerShotDamage1", "crawlerShotDamage2", "crawlerShotDamage3"],
+        "6": ["crawlerShotMax1"],
+        "7": ["crawlerShotKnockback1"],
+        "8": ["crawlerStealth"],
+        "9": ["crawlerStealthDuration1", "crawlerStealthDuration2"],
+        "10": ["crawlerStealthSilence1", "crawlerStealthSilence2"],
+        "11": ["crawlerStealthWalk1"],
+        "12": ["crawlerStealthRegen1"],
+        "13": ["crawlerStealthTrail1", "crawlerStealthTrail2", "crawlerStealthTrail3"],
+        "14": ["crawlerStealthRoll1"],
+        "16": ["crawlerHitDamage1", "crawlerHitDamage2", "crawlerHitDamage3"],
+        "17": ["crawlerHitAlone1", "crawlerHitAlone2"],
+        "18": ["crawlerHitKnife1"],
+        "19": ["crawlerHitLifesteal1", "crawlerHitLifesteal2"],
+        "20": ["crawlerHitNextKnife1", "crawlerHitNextKnife2"],
+        "21": ["crawlerHitCreep1"],
+        "23": ["addHealth1", "addHealth2", "addHealth3"],
+        "24": ["healthRegen1", "healthRegen2"],
+        "25": ["crawlerSpeed"],
+        "26": ["coinRegen1"],
+        "27": ["piggyBank"],
+        "28": ["ccReduction1", "ccReduction2"]
+    }
+}
