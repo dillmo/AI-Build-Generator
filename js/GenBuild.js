@@ -47,17 +47,12 @@ function XMLBlock(tag, id, values, inner) {
 
 // Returns the upgrade logic nested inside the shop check
 function genUpgradeXML(buildCode) {
-    // TODO populate the upgrades array using the build code and upgrade codes
-    // 1. Extract 'Naut name (done)
-    // 2. Extract first Nautsbuilder ID (done)
-    // 3. Use the Nautsbuilder ID and the boughtUpgrades array to match the
-    //    build code.
-    // 4. Increment the corresponding value in the boughtUpgrades array
-
     var nautName = buildCode.replace(/(.*\]|^)(\w+).*/, "$2");
     var nautsbuilderIDs = buildCode.match(/\d+/g);
+
     // Create an array to track bought upgrades and populate it with zeroes
     var boughtUpgrades = Array.apply(null, Array(28)).map(Number.prototype.valueOf, 0);
+
     var upgrades = [];
 
     // Starts at 1 because the first value in the array is not an upgrade ID
