@@ -15,7 +15,7 @@
 
             <div class="input-group">
                 <span class="input-group-addon">[build]</span>
-                <input class="form-control" id="buildCode" type="text" placeholder="Build Code" onkeypress="outputBuildXML(event)">
+                <input class="form-control" id="buildCode" type="text" placeholder="Embed Code" onkeypress="outputBuildXML(event)">
                 <span class="input-group-addon">[/build]</span>
             </div>
 
@@ -28,6 +28,23 @@
             <button type="button" class="btn btn-default btn-lg" onclick="downloadBuildXML()">
                 <span class="glyphicon glyphicon-download-alt"></span> Download
             </button>
+
+            <br />
+            <br />
+
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    <h3>How to Use the New Build Generator</h3>
+                    <ol>
+                        <li>Create a build with <a href="http://nautsbuilder.com">Nautsbuilder</a></li>
+                        <li>Copy the embed code from Nautsbuilder</li>
+                        <li>Paste the embed code into the text box</li>
+                        <li>Press enter to generate a build file</li>
+                        <li>Copy-paste the XML into a new Awesomenauts XML file
+                            or click Download to save it to your computer</li>
+                    </ol>
+                </div>
+            </div>
         </div>
 
         <script src="js/jquery.min.js"></script>
