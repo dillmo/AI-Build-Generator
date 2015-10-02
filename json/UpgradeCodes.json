@@ -26,5 +26,33 @@
         "26": ["coinRegen1"],
         "27": ["piggyBank"],
         "28": ["ccReduction1", "ccReduction2"]
+    },
+    "Nibbs": {
+        "1": ["blinkerBlink"],
+        "2": ["blinkerBlinkAttackSpeed1"],
+        "3": ["blinkerBlinkRange1"],
+        "4": ["blinkerBlinkDamage1", "blinkerBlinkDamage2", "blinkerBlinkDamage3"],
+        "5": ["blinkerStop1"],
+        "6": ["blinkerReset1"],
+        "7": ["blinkerSlow1", "blinkerSlow2"],
+        "8": ["blinkerTwirl"],
+        "9": ["blinkerTwirlDot1", "blinkerTwirlDot2"],
+        "10": ["blinkerTwirlDamage1", "blinkerTwirlDamage2", "blinkerTwirlDamage3"],
+        "11": ["blinkerTwirlShield1", "blinkerTwirlShield2", "blinkerTwirlShield3"],
+        "12": ["blinkerTwirlRange1"],
+        "13": ["blinkerTwirlCooldown1"],
+        "14": ["blinkerTwierlStacks", "blinkerTwirlStacks2"],
+        "16": ["blinkerHitAttackSpeed1", "blinkerHitAttackSpeed2", "blinkerHitAttackSpeed3"],
+        "17": ["blinkerHitCooldown1"],
+        "18": ["blinkerHitDuration1"],
+        "19": ["blinkerHitDamage1", "blinkerHitDamage2", "blinkerHitDamage3"],
+        "20": ["blinkerHitRegen1", "blinkerHitRegen2"],
+        "21": ["blinkerHitStun1"],
+        "23": ["addHealth1", "addHealth2", "addHealth3"],
+        "24": ["healthRegen1", "healthRegen2"],
+        "25": ["blinkerSpeed"],
+        "26": ["coinRegen1"],
+        "27": ["piggyBank"],
+        "28": ["allDamage", "allDamage2"]
     }
 }
