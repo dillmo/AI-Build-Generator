@@ -2,7 +2,7 @@ module.exports = function(grunt) {
     grunt.initConfig({
         pkg: grunt.file.readJSON("package.json"),
         concat: {
-            js: {
+            rawJS: {
                 src: ["js/jquery.min.js",
                       "js/FileSaver.min.js",
                       "js/GenBuild.js",
@@ -11,15 +11,23 @@ module.exports = function(grunt) {
             }
         },
         uglify: {
-            Gen: {
+            concatJS: {
                 src: "js/main.js",
                 dest: "js/main.min.js"
+            }
+        },
+        htmlmin: {
+            rawHTML: {
+                files: {
+                    "index.html": "index.full.html"
+                }
             }
         }
     });
 
     grunt.loadNpmTasks("grunt-contrib-concat");
     grunt.loadNpmTasks("grunt-contrib-uglify");
+    grunt.loadNpmTasks("grunt-contrib-htmlmin");
 
-    grunt.registerTask("default", ["concat", "uglify"]);
+    grunt.registerTask("default", ["concat", "uglify", "htmlmin"]);
 };
